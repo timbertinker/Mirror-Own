@@ -1,0 +1,11 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"func-style": "off",
+		"id-length": "off",
+		"sort-keys": "off",
+	},
+}
