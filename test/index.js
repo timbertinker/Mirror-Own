@@ -201,7 +201,6 @@ test('mirrorOwn', function (t) {
 
 				var a = { a: 1, b: 2 };
 				var b = { __proto__: null };
-
 				mirrorOwn(a, b, { omit: function (k) { return k === 'b'; } });
 
 				s2t.deepEqual(a, { a: 1, b: 2 }, 'does not modify A');
